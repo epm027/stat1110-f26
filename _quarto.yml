@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "STAT 1110: Fall 2026"
+  favicon: "Images/Logos_Icons/hex.svg"
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: "{{< fa house >}} Home"
+
+format:
+  html:
+    theme: [minty, styles.scss]
+    toc: true

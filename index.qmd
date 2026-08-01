@@ -1,0 +1,142 @@
+---
+toc: False
+fontsize: 16pt
+page-layout: full
+---
+<style>
+.navbar-toggler-icon::before {
+  font-family: FontAwesome;
+  content: "\f0c9"; /* fa-bars, fa-navicon */
+}
+
+<style>
+  table {
+    table-layout: fixed;
+  }
+  @media all and (max-width:768px) {
+        .calculator tr {    display: table;  width:100%;    }
+        .calculator td {    display: table-row; }
+    }
+</style>
+
+</style>
+
+<h1>STAT 1110: Applied Statistical Concepts and Methods</h1>
+<h3>Fall 2026 -- Sections S17, S18, and S19</h3>
+
+\
+
+<p>Welcome to the companion course site for STAT 1110, with Dr. Ethan P. Marzban! 
+
+
+::: {.callout-important}
+## **Important**
+
+Please note that this page contains only lecture- and homework-related material. You should consult your section's specific Canvas Page for all remaining material (e.g. Reading Responses, Quiz Solutions, etc.)
+:::
+
+```{=html}
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+</head>
+
+<div class="container mt-5 mb-5">
+	<div class="row">
+		<div class="col-md-10 offset-md-0">
+			<h4>General Weekly Timeline</h4>
+			<ul class="timeline">
+				<li>
+					<a style="color:blue">Homework Released</a>
+					<a style="color:blue" class="float-right">M Morning</a>
+				</li>
+				<li>
+					<a style="color:blue">Lecture Slides Released</a>
+					<a style="color:blue" class="float-right">M Morning</a>
+				</li>
+				<li>
+					<a style="color:blue">Lecture Activities Released</a>
+					<a style="color:blue" class="float-right">MW Morning</a>
+				</li>
+				<li>
+					<a style="color:blue">Lecture Activity Solutions</a>
+					<a style="color:blue" class="float-right">MW Evening </a>
+				</li>
+				<li>
+					<a style="color:blue">Homework Solutions</a>
+					<a style="color:blue" class="float-right">Th Morning</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+```
+
+
+```{r setup, include = F}
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+
+gs4_deauth()
+
+google_sheet <- read_sheet("https://docs.google.com/spreadsheets/d/1UQZ_exqPfs3WWzko8dQaYHkqjNLmHmPKxVIPZV5LXaE/edit?usp=sharing")
+```
+
+```{r}
+#| echo: False
+
+google_sheet %>%
+  select(-Admin_Notes, -Day) %>%
+  mutate(Date = as.Date(Date)) %>%
+  gt() %>%
+  fmt_date(Date, date_style = 31) %>%
+  sub_missing(columns = c(Week, Reading, Topic, Homework), missing_text = "") %>%
+  tab_style(
+    style = cell_borders(
+      sides = "right",
+      color = "#D3D3D3",
+      style = "solid"
+    ),
+    locations = cells_body(
+      columns = c(Date, Topic, Reading)
+    )
+  ) %>%
+  cols_align(
+    align = "center", 
+    columns = c(Week)
+  ) %>%
+  cols_align(
+    align = "right", 
+    columns = c(Date)
+  ) %>%
+  cols_align(
+    align = "left", 
+    columns = c(`Lecture Slides`,
+                `Lecture Activities`
+                )
+  ) %>%
+  fmt_markdown(
+    columns = c(Week, Reading, Topic, `Lecture Slides`, `Lecture Activities`)
+  ) %>%
+  cols_width(
+    Week ~ pct(4),
+    Date ~ pct(15), 
+    Reading ~ pct(14),
+    Topic ~ pct(15),
+    `Lecture Slides` ~ pct(18),
+    `Lecture Activities` ~ pct(20),
+    Homework ~ pct(16)
+  ) %>%
+  cols_label_with(fn = function(x) {
+      janitor::make_clean_names(x, case = "title") %>%
+        toupper() %>%
+        stringr::str_replace_all("^|$", "**") %>%
+        md()
+    }) %>%
+  tab_options(
+    table.font.size = 16) %>%
+  opt_row_striping()
+```

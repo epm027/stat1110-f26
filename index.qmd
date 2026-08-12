@@ -119,16 +119,16 @@ google_sheet %>%
                 )
   ) %>%
   fmt_markdown(
-    columns = c(Week, Reading, Topic, `Lecture Slides`, `Lecture Activities`)
+    columns = c(Week, Reading, Topic, `Lecture Slides`, `Lecture Activities`, Homework)
   ) %>%
   cols_width(
     Week ~ pct(4),
-    Date ~ pct(15), 
+    Date ~ pct(13), 
     Reading ~ pct(14),
     Topic ~ pct(15),
     `Lecture Slides` ~ pct(18),
     `Lecture Activities` ~ pct(20),
-    Homework ~ pct(16)
+    Homework ~ pct(17)
   ) %>%
   cols_label_with(fn = function(x) {
       janitor::make_clean_names(x, case = "title") %>%

@@ -10,6 +10,7 @@ website:
     left:
       - href: index.qmd
         text: "{{< fa house >}} Home"
+  page-footer: "Site Designed by Dr. Ethan Marzban using <a href='https://quarto.org/' target='_blank'>Quarto</a>, ©2026 <br />"
 
 format:
   html:

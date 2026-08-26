@@ -54,7 +54,7 @@ Please note that this page contains only lecture- and homework-related material.
 				</li>
 				<li>
 					<a style="color:blue">Lecture Slides Released</a>
-					<a style="color:blue" class="float-right">M Morning</a>
+					<a style="color:blue" class="float-right">MW Morning</a>
 				</li>
 				<li>
 					<a style="color:blue">Lecture Activities Released</a>
@@ -62,7 +62,7 @@ Please note that this page contains only lecture- and homework-related material.
 				</li>
 				<li>
 					<a style="color:blue">Lecture Activity Solutions</a>
-					<a style="color:blue" class="float-right">MW Evening </a>
+					<a style="color:blue" class="float-right">TR During the Day </a>
 				</li>
 				<li>
 					<a style="color:blue">Homework Solutions</a>

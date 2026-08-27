@@ -32,7 +32,7 @@ page-layout: full
 ::: {.callout-important}
 ## **Important**
 
-Please note that this page contains only lecture- and homework-related material. You should consult your section's specific Canvas Page for all remaining material (e.g. Reading Responses, Quiz Solutions, etc.)
+Please note that this page contains only lecture- and homework-related material. You should consult your section's specific Canvas Page for all remaining material (e.g. Reflection Responses, Quiz Solutions, etc.)
 :::
 
 ```{=html}
@@ -143,7 +143,7 @@ google_sheet %>%
 
 <br />
 
-<h3>Quiz Related Documents</h3>
+<h3>Quiz-Related Documents</h3>
 
 
 -   **Quiz 01 Cover Page** (to be added later)

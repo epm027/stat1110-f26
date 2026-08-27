@@ -149,4 +149,4 @@ google_sheet %>%
 -   **Quiz 01 Cover Page** (to be added later)
 -   **Quiz 01 Formula Sheet** (to be added later)
 -   **Quiz 01 Extra Problems** (to be added later)
--   **Quiz Bubble Sheet** (to be added later)
+-   [**Quiz Bubble Sheet**](Files/Quiz_Material/Bubble_Sheet.pdf){target="_blank"}

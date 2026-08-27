@@ -140,3 +140,13 @@ google_sheet %>%
     table.font.size = 16) %>%
   opt_row_striping()
 ```
+
+<br />
+
+<h3>Quiz Related Documents</h3>
+
+
+-   **Quiz 01 Cover Page** (to be added later)
+-   **Quiz 01 Formula Sheet** (to be added later)
+-   **Quiz 01 Extra Problems** (to be added later)
+-   **Quiz Bubble Sheet** (to be added later)

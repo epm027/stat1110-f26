@@ -66,7 +66,7 @@ Please note that this page contains only lecture- and homework-related material.
 				</li>
 				<li>
 					<a style="color:blue">Homework Solutions</a>
-					<a style="color:blue" class="float-right">Th Morning</a>
+					<a style="color:blue" class="float-right">R Morning</a>
 				</li>
 			</ul>
 		</div>
@@ -93,7 +93,7 @@ google_sheet %>%
   mutate(Date = as.Date(Date)) %>%
   gt() %>%
   fmt_date(Date, date_style = 31) %>%
-  sub_missing(columns = c(Week, Reading, Topic, Homework), missing_text = "") %>%
+  sub_missing(columns = c(Week, Reading, Topic, `Weekly Homework`), missing_text = "") %>%
   tab_style(
     style = cell_borders(
       sides = "right",
@@ -119,7 +119,7 @@ google_sheet %>%
                 )
   ) %>%
   fmt_markdown(
-    columns = c(Week, Reading, Topic, `Lecture Slides`, `Lecture Activities`, Homework)
+    columns = c(Week, Reading, Topic, `Lecture Slides`, `Lecture Activities`, `Weekly Homework`)
   ) %>%
   cols_width(
     Week ~ pct(4),
@@ -128,7 +128,7 @@ google_sheet %>%
     Topic ~ pct(15),
     `Lecture Slides` ~ pct(18),
     `Lecture Activities` ~ pct(20),
-    Homework ~ pct(17)
+    `Weekly Homework` ~ pct(17)
   ) %>%
   cols_label_with(fn = function(x) {
       janitor::make_clean_names(x, case = "title") %>%

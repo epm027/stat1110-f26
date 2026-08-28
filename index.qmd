@@ -146,7 +146,7 @@ google_sheet %>%
 <h3>Quiz-Related Documents</h3>
 
 
--   **Quiz 01 Cover Page** (to be added later)
--   **Quiz 01 Formula Sheet** (to be added later)
+-   [**Quiz 01 Cover Page**](Files/Quiz_Material/Quiz01_Coverpage.pdf){target="_blank"}
+-   [**Quiz 01 Formula Sheet**](Files/Quiz_Material/Quiz01_Formula_Sheet.pdf){target="_blank"}
 -   **Quiz 01 Extra Problems** (to be added later)
 -   [**Quiz Bubble Sheet**](Files/Quiz_Material/Bubble_Sheet.pdf){target="_blank"}

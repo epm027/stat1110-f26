@@ -149,5 +149,5 @@ google_sheet %>%
 -   [**Quiz 01 Cover Page**](Files/Quiz_Material/Quiz01_Coverpage.pdf){target="_blank"}
 -   [**Quiz 01 Formula Sheet**](Files/Quiz_Material/Quiz01_Formula_Sheet.pdf){target="_blank"}
 -   [**Quiz 01 Extra Problems**](Files/Quiz_Material/Qz01_PracProb_Blank.pdf){target="_blank"}
-    -   Solutions will be posted over the weekend
+    -   [**Quiz 01 Extra Problems Solutions**](Files/Quiz_Material/Qz01_PracProb_Solns.pdf){target="_blank"}
 -   [**Quiz Bubble Sheet**](Files/Quiz_Material/Bubble_Sheet.pdf){target="_blank"}

@@ -1,10 +1,10 @@
 ---
-title: "PSTAT 100 - Data Science: Concepts and Analysis"
+title: "STAT 1110: Applied Statistical Concepts and Methods"
 subtitle: "Error 404"
 author:
   - name: "Ethan Marzban"
     affiliations:
-      - name: "Summer Session A, 2025"
+      - name: "Fall 2026"
 author-title: "Instructor"
 affiliation-title: "Quarter"
 format: html

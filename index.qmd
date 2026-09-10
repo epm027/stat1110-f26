@@ -143,7 +143,15 @@ google_sheet %>%
 
 <br />
 
-<h3>Quiz-Related Documents</h3>
+<h3>Quiz03-Related Documents</h3>
+
+<a href="Files/Quiz_Material/Quiz02_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Quiz 02, Blank</button></a> <a href="Files/Quiz_Material/Quiz02_Solns.pdf" target="_blank"><button type="button" class="btn btn-primary">Solns</button></a>
+
+<a href="Files/Quiz_Material/Qz03_PracProb_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Quiz 03, Extra Problems</button></a> <a href="Files/Quiz_Material/Qz03_PracProb_Solns.pdf" target="_blank"><button type="button" class="btn btn-primary">Solns</button></a>
+
+<br />
+
+<h3>Quiz01-Related Documents</h3>
 
 
 -   [**Quiz 01 Cover Page**](Files/Quiz_Material/Quiz01_Coverpage.pdf){target="_blank"}

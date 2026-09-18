@@ -143,6 +143,21 @@ google_sheet %>%
 
 <br />
 
+
+<h3>Midterm 1-Related Documents</h3>
+
+-   <a href="Files/MT/Midterm 1 Cover Page.pdf" target="_blank"><button type="button" class="btn btn-primary">Cover Page</button></a> 
+
+-   <a href="Files/MT/StudyGuide - Midterm 1.pdf" target="_blank"><button type="button" class="btn btn-primary">Study Guide</button></a>
+
+-   <a href="Files/MT/ReviewProblems.pdf" target="_blank"><button type="button" class="btn btn-primary">Review Problems</button></a>
+
+
+<br />
+
+<h3>Quiz01-Related Documents</h3>
+
+
 <h3>Quiz03-Related Documents</h3>
 
 <a href="Files/Quiz_Material/Quiz02_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Quiz 02, Blank</button></a> <a href="Files/Quiz_Material/Quiz02_Solns.pdf" target="_blank"><button type="button" class="btn btn-primary">Solns</button></a>

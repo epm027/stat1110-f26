@@ -155,8 +155,6 @@ google_sheet %>%
 
 <br />
 
-<h3>Quiz01-Related Documents</h3>
-
 
 <h3>Quiz03-Related Documents</h3>
 

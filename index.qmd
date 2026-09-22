@@ -150,7 +150,9 @@ google_sheet %>%
 
 -   <a href="Files/MT/StudyGuide - Midterm 1.pdf" target="_blank"><button type="button" class="btn btn-primary">Study Guide</button></a>
 
--   <a href="Files/MT/ReviewProblems.pdf" target="_blank"><button type="button" class="btn btn-primary">Review Problems</button></a>
+-   <a href="Files/MT/ReviewProblems.pdf" target="_blank"><button type="button" class="btn btn-primary">Review Problems</button></a> <a href="Files/MT/RevProbSolns.pdf" target="_blank"><button type="button" class="btn btn-primary">Solns</button></a>
+
+-   <a href="Files/MT/EPM_RevProbSolns.pdf" target="_blank"><button type="button" class="btn btn-primary">Solutions to Problems from Monday</button></a>
 
 
 <br />

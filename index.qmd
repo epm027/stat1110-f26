@@ -143,6 +143,9 @@ google_sheet %>%
 
 <br />
 
+<h3>Errata</h3>
+
+-   **Homework 4 Solutions, Problem 3(c):** What is written in the body of the text is correct, but the centered equations are slightly incorrect: the null is H~0~: π<sub>correct</sub> = 0.5 and the alternative is H~A~: π<sub>correct</sub> > 0.5. 
 
 <h3>Midterm 1-Related Documents</h3>
 

@@ -147,6 +147,13 @@ google_sheet %>%
 
 -   **Homework 4 Solutions, Problem 3(c):** What is written in the body of the text is correct, but the centered equations are slightly incorrect: the null is H~0~: π<sub>correct</sub> = 0.5 and the alternative is H~A~: π<sub>correct</sub> > 0.5. 
 
+
+<h3>Quiz04-Related Documents</h3>
+
+<a href="Files/Quiz_Material/Qz04_Coverpage.pdf" target="_blank"><button type="button" class="btn btn-primary">Updated Cover Page</button></a> 
+
+<a href="Files/Quiz_Material/Qz04_Formulas.pdf" target="_blank"><button type="button" class="btn btn-primary">Formula Sheet</button></a> 
+
 <h3>Midterm 1-Related Documents</h3>
 
 -   <a href="Files/MT/Midterm 1 Cover Page.pdf" target="_blank"><button type="button" class="btn btn-primary">Cover Page</button></a> 

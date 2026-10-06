@@ -145,7 +145,8 @@ google_sheet %>%
 
 <h3>Errata</h3>
 
--   **Lecture Activity 11:** THE DEFINITION OF THE SIGNIFICANCE LEVEL IS INCORRECT.
+-   **Lecture Activity 11:** There were some incorrect versions of the definition of significance level. Here is the proper definition: the significance level is the smallest _p_-value for which we fail to reject the null.
+    -   If the _p_-value is strictly less than the significance level, we reject the null in favor of the alternative. **This is the key point.**
 
 -   **Homework 4 Solutions, Problem 3(c):** What is written in the body of the text is correct, but the centered equations are slightly incorrect: the null is H~0~: π<sub>correct</sub> = 0.5 and the alternative is H~A~: π<sub>correct</sub> > 0.5. 
 

@@ -154,7 +154,7 @@ google_sheet %>%
 
 <h3>Quiz06-Related Documents</h3>
 
-<a href="Files/Quiz_Material/Qz06_PracProb_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Practice Problems</button></a>
+<a href="Files/Quiz_Material/Qz06_PracProb_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Practice Problems</button></a> <a href="Files/Quiz_Material/Qz06_PracProb_Solns.pdf" target="_blank"><button type="button" class="btn btn-primary">Solutions</button></a>
 
 <a href="Files/Quiz_Material/Qz06_Formulas.pdf" target="_blank"><button type="button" class="btn btn-primary">Formula Sheet</button></a>
 

@@ -151,6 +151,10 @@ google_sheet %>%
 -   **Homework 4 Solutions, Problem 3(c):** What is written in the body of the text is correct, but the centered equations are slightly incorrect: the null is H~0~: π<sub>correct</sub> = 0.5 and the alternative is H~A~: π<sub>correct</sub> > 0.5. 
 
 
+<h3>Quiz07-Related Documents</h3>
+-   No practice problems; review the corresponding lecture activities and homework (and their solutions), along with the relevant lecture slides.
+    -   The formula sheet will only contain the table of quantifying strength of evidence based on a _p_-value.
+
 
 <h3>Quiz06-Related Documents</h3>
 

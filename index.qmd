@@ -145,6 +145,7 @@ google_sheet %>%
 
 <h3>Errata</h3>
 
+-   [10/26]**Homework 8 Solutions:** a previous version of the solutions to parts (i), (j), and (k) of Question 1 referred to an old context of the problem. These have been corrected and though the corrections shouldn't impact the final solutions much, I apologize for the confusion!
 -   **Lecture Activity 11:** There were some incorrect versions of the definition of significance level. Here is the key takeaway: **whenever our _p_-value is strictly less than the significance level, we reject the null hypothesis in favor of the alternative hypothesis.**
     -   For example, if we are using a 0.05 significance level and we obtain a _p_-value of 0.03, we would reject the null hypothesis in favor of the alternative hypothesis because 0.03 < 0.05. If we instead obtained a _p_-value of 0.07 we would fail to reject the null hypothesis in favor of the alternative hypothesis.
 

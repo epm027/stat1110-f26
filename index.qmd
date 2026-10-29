@@ -161,6 +161,16 @@ google_sheet %>%
 
 -   <a href="Files/MT/Summary Table 01.pdf" target="_blank"><button type="button" class="btn btn-primary">Summary Table 01</button></a> <a href="Files/MT/Summary Table 02.pdf" target="_blank"><button type="button" class="btn btn-primary">Summary Table 02</button></a>
 
+-   <a href="Files/MT/MT02 Review Problems.pdf" target="_blank"><button type="button" class="btn btn-primary">Review Problems I</button></a> 
+    -   These problems were collaboratively created by the STAT 1110 instructional team. 
+    -    Solutions will be posted Friday or Saturday
+  
+-   <a href="Files/MT/MT02 Review Problem Solutions.pdf" target="_blank"><button type="button" class="btn btn-primary">Solutions to Wednesday's Review</button></a> 
+    -   These are the solutions to the problems I handed out during lecture on Wednesday October 28 
+  
+-   <a href="Files/MT/Gallery Walk Master Questions.pdf" target="_blank"><button type="button" class="btn btn-primary">Gallery Walk Questions</button></a> 
+    -   These are the questions that we passed around and worked on during the Gallery Walk on Wednesday October 28
+
 
 
 <br />

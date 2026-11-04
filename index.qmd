@@ -143,6 +143,17 @@ google_sheet %>%
 
 <br />
 
+<h3>Remaining Quiz Coverage</h3>
+
+These are subject to change.
+
+-   **Quiz 08:** Paired design, and multiple proportions: simulation-based
+-   **Quiz 09:** Multiple proportions: simulation-based and theory-based
+-   **Quiz 10:** Multiple means: simulation-based and theory-based
+-   **Quiz 11:** Regression
+
+
+
 <h3>Errata</h3>
 
 -   [10/26]**Homework 8 Solutions:** a previous version of the solutions to parts (i), (j), and (k) of Question 1 referred to an old context of the problem. These have been corrected and though the corrections shouldn't impact the final solutions much, I apologize for the confusion!

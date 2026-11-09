@@ -147,7 +147,7 @@ google_sheet %>%
 
 These are subject to change.
 
--   **Quiz 08:** Paired design, and multiple proportions: simulation-based
+-   **Quiz 08:** Paired design, and multiple proportions: simulation-based. 20 points.
 -   **Quiz 09:** Multiple proportions: simulation-based and theory-based
 -   **Quiz 10:** Multiple means: simulation-based and theory-based
 -   **Quiz 11:** Regression
@@ -166,7 +166,7 @@ These are subject to change.
 
 <h3>Quiz08-Related Documents</h3>
 
-<a href="Files/Quiz_Material/Qz08_PracProb_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Practice Problems</button></a> (Solutions will be posted over the weekend)
+<a href="Files/Quiz_Material/Qz08_PracProb_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Practice Problems</button></a> <a href="Files/Quiz_Material/Qz08_PracProb_Solns.pdf" target="_blank"><button type="button" class="btn btn-primary">Solutions</button></a> 
 
 <a href="Files/Quiz_Material/Qz08_Formulas.pdf" target="_blank"><button type="button" class="btn btn-primary">Formula Sheet</button></a> (Sigma Notation is explained in Lecture Activity 18)
 

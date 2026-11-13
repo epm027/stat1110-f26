@@ -175,6 +175,8 @@ These are subject to change.
 
 <a href="Files/Quiz_Material/Qz08_VA_Solns.pdf" target="_blank"><button type="button" class="btn btn-primary">Quiz 08, VA Solutions</button></a> 
 
+<a href="https://drive.google.com/file/d/1YtDegz8x82Hc5cZsvct-75WSPBj1WMc4" target="_blank"><button type="button" class="btn btn-primary">Video Breakdown; PLEASE WATCH</button></a>
+
 <a href="Files/Quiz_Material/Qz08_PracProb_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Practice Problems</button></a> <a href="Files/Quiz_Material/Qz08_PracProb_Solns.pdf" target="_blank"><button type="button" class="btn btn-primary">Solutions</button></a> 
 
 <a href="Files/Quiz_Material/Qz08_Formulas.pdf" target="_blank"><button type="button" class="btn btn-primary">Formula Sheet</button></a> (Sigma Notation is explained in Lecture Activity 18)

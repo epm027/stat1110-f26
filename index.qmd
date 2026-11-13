@@ -164,7 +164,16 @@ These are subject to change.
 
 <br />
 
+<h3>Quiz09-Related Documents</h3>
+
+<a href="Files/Quiz_Material/Qz09_PracProb_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Practice Problems</button></a> Solutions to be posted Sunday morning.
+    -   The formula sheet is attached at the end of the practice problems.
+
+
+
 <h3>Quiz08-Related Documents</h3>
+
+<a href="Files/Quiz_Material/Qz08_VA_Solns.pdf" target="_blank"><button type="button" class="btn btn-primary">Quiz 08, VA Solutions</button></a> 
 
 <a href="Files/Quiz_Material/Qz08_PracProb_Blank.pdf" target="_blank"><button type="button" class="btn btn-primary">Practice Problems</button></a> <a href="Files/Quiz_Material/Qz08_PracProb_Solns.pdf" target="_blank"><button type="button" class="btn btn-primary">Solutions</button></a> 
 
